@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(234, 68, 68),
+    rgb(72, 192, 232)
+  );
+  color: white;
+}
+
+.header01-todo {
+  color: rgb(255, 255, 255);
+}
+
+.header02-todo {
+  color: rgb(255, 255, 255);
+}
+
+#input-field {
+  border: 1.8px solid rgb(0, 0, 0);
+  border-radius: 12px;
+}
+
+.submit-btn {
+  border: 1.8px solid rgb(0, 0, 0);
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#todo-output {
+  border-radius: 15px;
+  margin-left: 30rem;
+  margin-right: 30rem;
+  padding: 2rem;
+  background-color: rgba(240, 255, 255, 0.615);
+  list-style-type: none;
+}
